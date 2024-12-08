@@ -1,0 +1,15 @@
+.sidebar-container {
+    // 기본적으로 작은 화면에서는 숨김
+    display: none;
+  
+    // 뷰포트 너비가 1024px 이상일 때 사이드바 보이기
+    @media (min-width: 1024px) {
+      display: block;
+      width: 100%;
+      max-width: 650px;
+      height: 100%;
+      background-color: #f0f0f0;
+      /* 필요한 스타일 더 추가 */
+    }
+  }
+  

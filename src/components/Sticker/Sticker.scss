@@ -1,0 +1,6 @@
+img {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    transform: translate(var(--x, 0), var(--y, 0));
+}

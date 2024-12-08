@@ -19,9 +19,15 @@ div {
 .container {
   background-color: black;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
+  
+
+  @media (min-width: 1024px) {
+    padding: 50px;
+  }
 }
