@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'TTSamlipCreamyWhiteR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-4@1.0/TTSamlipCreamyWhiteR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card-board-container {
+    max-width: 600px;
+    background-color: #edda4f;
+    height: 180px;
+    position: relative;
+    padding: 10px;
+    padding-top: 50px;
+
+    .hole-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 18px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .small-hole,
+        .big-hole {
+            background-color: #000;
+        }
+
+        .small-hole {
+            width: 34px;
+            height: 14px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+        }
+
+        .big-hole {
+            width: 140px;
+            height: 35px;
+            border-radius: 40px;
+        }
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 70px; 
+        left: 20px;
+        gap: 6px;
+        // transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .programming {
+            background-color: #D5593F;
+            padding: 5px 15px;
+            border-radius: 20px;
+            color: #fff;
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'TTSamlipCreamyWhiteR';
+            font-size: 2.6rem;
+        }
+    }
+}
