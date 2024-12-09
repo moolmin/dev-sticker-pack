@@ -25,7 +25,6 @@ import tailwind from "../../assets/tailwind.png";
 import TS from "../../assets/TS.png";
 import vue from "../../assets/vue.png";
 
-// 스티커 정보 객체 배열 (예: x, y는 상황에 맞게 지정)
 const stickers = [
   { src: reactImg, alt: "react", x: 30, y: 28 },
   { src: tailwind, alt: "tailwind", x: 30, y: 40 },
