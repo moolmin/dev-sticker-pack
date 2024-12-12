@@ -1,15 +1,37 @@
+@font-face {
+  font-family: 'RixYeoljeongdo_Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .sidebar-container {
-    // 기본적으로 작은 화면에서는 숨김
     display: none;
+    color: #fff;
+    margin-bottom: 150px;
+
+    h1 {
+      font-family: 'RixYeoljeongdo_Regular';
+    }
+
+    p {
+      margin-top: 60px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #fff;
+
+      &:hover {
+        color: #edda4f;
+      }
+    }
   
-    // 뷰포트 너비가 1024px 이상일 때 사이드바 보이기
     @media (min-width: 1024px) {
       display: block;
       width: 100%;
       max-width: 650px;
       height: 100%;
-      background-color: #f0f0f0;
-      /* 필요한 스타일 더 추가 */
     }
   }
   

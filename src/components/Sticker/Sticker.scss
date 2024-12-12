@@ -6,8 +6,8 @@ img {
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
   
-  img:hover {
-    transform: translate(calc(var(--x, 0) + 10px), calc(var(--y, 0) - 10px)) rotate(15deg);
-    opacity: 0.7;
-  }
+  // img:hover {
+  //   transform: translate(calc(var(--x, 0) + 10px), calc(var(--y, 0) - 10px)) rotate(15deg);
+  //   opacity: 0.7;
+  // }
   
